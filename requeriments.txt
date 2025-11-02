@@ -1,0 +1,6 @@
+streamlit
+pandas
+folium
+streamlit-folium
+psycopg2-binary   # si usas PostgreSQL
+plotly
