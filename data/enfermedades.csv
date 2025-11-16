@@ -1,0 +1,8 @@
+Enfermedad,Patógeno Causante,temperatura_minima,temperatura_maxima,Humedad _relativa_min,frecuencia_lluvia
+Roya del café,Hongo: Hemileia vastatrix,18,25,70,moderada
+Antracnosis,Hongo: Colletotrichum kahawae,20,25,70,alta
+Ojo de gallo,Hongo: Mycena citricolor,16,20,85,moderada
+Mancha de hierro,Hongo: Cercospora coffeicola,20,25,30,alta
+Mal Rosado,Hongo: Conicium salmonicolor,20,30,30,alta
+Phoma,Hongo: Phoma costaricensis,5,20,80,moderada
+Broca del café (Plaga),Insecto: Hypothenemus hampei,20,35,70,minima
