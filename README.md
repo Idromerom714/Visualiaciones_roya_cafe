@@ -1,4 +1,4 @@
-# Visualizaciones_roya_cafe
+# Visualizaciones_patologias_café
 Dashboard web para visualizaciones y analisis de la roya en los cultivos de café.
 
 Como ejecutarlo?
