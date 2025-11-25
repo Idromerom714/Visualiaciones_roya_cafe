@@ -26,7 +26,7 @@ PATOGENOS_INFO = {
         'tipo': 'Hongo',
         'indicador': 'NHF_Roya_Horas',
         'emoji': '🍂',
-        'imagen_url': 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Coffee_leaf_rust.jpg/300px-Coffee_leaf_rust.jpg',
+        'imagen_url': 'Roya.jpg', #añadir una imagen representativa desde este equipo
         'caracteristicas': [
             '🌡️ **Temperatura óptima:** 18-25°C',
             '💧 **Humedad relativa:** >85%',
@@ -41,7 +41,7 @@ PATOGENOS_INFO = {
         'tipo': 'Insecto (Escarabajo)',
         'indicador': 'GD_Broca_Acumulado',
         'emoji': '🪲',
-        'imagen_url': 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Coffee_borer_beetle.jpg/300px-Coffee_borer_beetle.jpg',
+        'imagen_url': 'Broca.jpg',
         'caracteristicas': [
             '🌡️ **Temperatura base:** >20°C para desarrollo',
             '📊 **Grados-día:** Requiere ~135 GD para completar ciclo',
