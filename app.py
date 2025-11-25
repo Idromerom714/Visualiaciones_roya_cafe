@@ -455,7 +455,7 @@ st.header("🔬 Validación del Indicador de Riesgo (Modelo Estadístico)")
 if len(df_indicators) < 5:
     st.warning("Se necesitan **más de 5 ubicaciones** seleccionadas para que el análisis de regresión sea estadísticamente estable.")
 else:
-    if selected_patogeno_name == 'Roya del café (NHF)':
+    if selected_patogeno_key == 'Roya del café':
         st.markdown("Se utiliza **Regresión Logística** para modelar la probabilidad de **Incidencia de Roya (Simulada)**.")
         result = run_logistic_regression(df_indicators)
 
@@ -486,7 +486,7 @@ else:
             st.info(f"**Altitud (Altitud_km):** Coeficiente: **{coef_df.loc['Altitud_km', 'Coeficiente']:.3f}** | P-Valor: **{coef_df.loc['Altitud_km', 'P-Valor']:.3f}**.")
 
 
-    elif selected_patogeno_name == 'Broca del café (GD)':
+    elif selected_patogeno_key == 'Broca del café':
         st.markdown("Se utiliza **Regresión Binomial Negativa** para modelar el **Conteo de Brocas (Simulado)**.")
         result = run_negative_binomial(df_indicators)
         
